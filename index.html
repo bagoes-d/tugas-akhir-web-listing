@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderful Indonesia - Premium Tour Listing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <h1 class="logo">🌿 Jelajah<span>Raya</span></h1>
+            <div class="badge-nim">Bagoes Wahyu Untoro</div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="hero-section">
+            <span class="hero-tag">✨ Pilihan Terbaik</span>
+            <h2 class="title">Eksplorasi Keindahan Indonesia</h2>
+            <p class="subtitle">Jelajahi ragam destinasi pilihan terbaik di Indonesia. Mulai petualangan hebat Anda dan rasakan kehangatan budaya Nusantara di sini.</p>
+        </div>
+
+        <div id="wisata-container" class="grid-container">
+            <div class="loading-state">
+                <div class="spinner"></div>
+                <p>Sinkronisasi database wisata...</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal-detail" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img id="modal-gambar" src="" alt="">
+                <button onclick="tutupModal()" class="close-btn">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-meta">
+                    <span id="modal-kategori" class="tag-kategori"></span>
+                    <span id="modal-penilaian" class="tag-rating"></span>
+                </div>
+                <h3 id="modal-nama" class="modal-title"></h3>
+                <div class="divider-line"></div>
+                <h4 class="section-label">Tentang Destinasi</h4>
+                <p id="modal-deskripsi" class="modal-text"></p>
+            </div>
+            <div class="modal-footer">
+                <button onclick="tutupModal()" class="btn-secondary">Tutup Detail</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 JelajahRaya Nusantara. Dibuat dengan dedikasi penuh untuk memenuhi standar Tugas Akhir Pemrograman Web.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

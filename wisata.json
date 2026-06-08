@@ -1,0 +1,26 @@
+[
+  {
+    "nama": "Candi Borobudur",
+    "kategori": "Budaya & Sejarah",
+    "deskripsi": "Candi Borobudur adalah monumen Buddha Mahayana terbesar di dunia yang terletak di Magelang, Jawa Tengah. Sejarah candi ini dapat dibagi menjadi tiga fase utama: pembangunan, masa ditinggalkan, dan penemuan kembali.",
+    "penilaian": "4.8/5",
+    "lokasi": "Jawa Tengah, Indonesia",
+    "gambar": "/image/candi borobudur.jpg"
+  },
+  {
+    "nama": "Raja Ampat",
+    "kategori": "Alam & Bahari",
+    "deskripsi": "Raja Ampat adalah gugusan kepulauan yang terletak di ujung barat bagian semenanjung Asia Pasifik (Kepala Burung Pulau Papua), kini masuk dalam wilayah Provinsi Papua Barat Daya. Sejarahnya kental dengan perpaduan mitos adat dan jalur perdagangan maritim Nusantara.",
+    "penilaian": "4.9/5",
+    "lokasi": "Papua Barat Daya, Indonesia",
+    "gambar": "/image/raja ampat.png"
+  },
+  {
+    "nama": "Gunung Sindoro",
+    "kategori": "Petualangan & Alam",
+    "deskripsi": "Gunung Sindoro merupakan salah satu gunung api aktif paling ikonik di Jawa Tengah. Berdiri gagah dengan ketinggian 3.136 meter di atas permukaan laut (mdpl), sejarah gunung ini mencakup kombinasi antara aktivitas geologi ribuan tahun dan jejak peradaban kuno Nusantara.",
+    "penilaian": "4.9/5",
+    "lokasi": "Jawa Tengah, Indonesia",
+    "gambar": "/image/gunung sindoro.jpg"
+  }
+]
