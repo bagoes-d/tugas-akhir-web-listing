@@ -1,8 +1,6 @@
 
 # JelajahRaya — Web Listing Destinasi Wisata
 
-![JelajahRaya](image/README-banner.png)
-
 Sebuah aplikasi web statis untuk menampilkan dan mengeksplorasi destinasi wisata pilihan di Indonesia. Proyek ini dibuat sebagai Tugas Akhir Pemrograman Web oleh Bagoes Wahyu Untoro.
 
 ## ✨ Fitur Utama
@@ -128,5 +126,3 @@ Lihat [LICENSE](LICENSE) untuk detail lisensi.
 ## ✉️ Kontak
 
 Pembuat: Bagoes Wahyu Untoro
-
-Ingin menambahkan email, GitHub, atau screenshot demo di README? Saya bisa menambahkan jika Anda berikan detailnya.
