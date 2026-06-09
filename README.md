@@ -42,7 +42,7 @@ JelajahRaya adalah sebuah aplikasi web listing dinamis yang menyajikan informasi
 ```bash
    git clone [https://github.com/bagoes-d/tugas-akhir-web-listing.git](https://github.com/bagoes-d/tugas-akhir-web-listing.git)
 
-## 📁 Struktur Direktori Proyek (Project Structure)
+📁 Struktur Direktori Proyek (Project Structure)
 Plaintext
 tugas-akhir-web-listing-24552010157/
 │
@@ -51,3 +51,16 @@ tugas-akhir-web-listing-24552010157/
 ├── script.js           # Mesin penggerak Fetch API, Perulangan Data, & Logika Modal
 ├── wisata.json         # Database lokal terstruktur (JSON array) memuat data destinasi
 └── README.md           # Dokumentasi resmi proyek (berkas ini)
+
+🌐 Integrasi Data & Atribut API
+Aplikasi ini menggunakan database berbasis JSON dengan struktur array objek yang mensimulasikan respons data API asli.
+
+Contoh Format Skema Data (wisata.json):
+JSON
+{
+  "id": 1,
+  "nama": "Monumen Nasional (Monas)",
+  "kategori": "Jakarta",
+  "penilaian": "4.7",
+  "deskripsi": "Ikon bersejarah Indonesia yang menawarkan pemandangan kota dari puncak..."
+}
